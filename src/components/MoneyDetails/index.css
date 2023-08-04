@@ -1,1 +1,34 @@
 /* Write your CSS here */
+.each-list {
+  list-style-type: none;
+  background-color: #ecfccb;
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 50px;
+  margin-right: 20px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+}
+.each-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 0px;
+  color: #475569;
+}
+.each-amount {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 10px;
+  color: #475569;
+}
